@@ -1,0 +1,70 @@
+
+.card{
+place-self: center;
+padding: 50px;
+border-radius: 10px;
+background-image :linear-gradient(45deg,#2f4680,#500ae4);
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  gap:10px
+}
+
+.search-bar input{
+    padding: 12px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    background: #ebfffc;
+}
+.search-bar img{
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+
+
+.icon img{
+   width: 80px;
+   height: 80px;
+}
+.weather-tem{
+    color: #ebfffc;
+    padding: 3px;
+}
+.weather-tem,.temp{
+ font-size: 50px;
+}
+.weather-tem,.place{
+    font-size: 30px;
+}
+.condition{
+   width: 100%;
+   margin-top: 40px;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+}
+.condition .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+.condition .col span{
+    display: block;
+    font-size: 15px;
+}
+.condition .col img{
+   margin-top:10px;
+    width: 20px;
+    height: 20px;
+}
